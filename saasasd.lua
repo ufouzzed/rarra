@@ -1,8 +1,8 @@
-wait(8)
+wait(8) -- waiting for the game to load
 mousemoveabs(1000, 1000) 
 mousemoveabs(1000, 1005)
 mouse1click()
-
+wait(5) --once game is loaded, execute the lines under
 local NotificationLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/lobox920/Notification-Library/main/Library.lua"))()
 local rareColors = {
 	"leafy",
